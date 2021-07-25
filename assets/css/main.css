@@ -1,0 +1,130 @@
+.app {}
+
+
+/* Header */
+
+
+/* Begin header top1 */
+
+.header {
+    background-color: rgb(199, 211, 172);
+}
+
+.grid.wide {
+    line-height: var(--top1-height);
+}
+
+.header-top-1 {
+    height: var(--top1-height);
+    margin: 5px 0;
+}
+
+.hotline {
+    font-size: 1.4rem;
+}
+
+.hotline-phone {
+    font-size: 1.6rem;
+    color: var(--tag-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header-search {
+    border: 1px solid rgb(192, 191, 191);
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.header-search-input {
+    outline: none;
+    width: 98%;
+    margin-left: 6px;
+    font-size: 1.6rem;
+    border: none;
+}
+
+.header-search-btn {
+    width: calc(var(--top1-height) + 10px);
+    height: 93.4%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 3px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.header-search-btn-icon {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--tag-color);
+}
+
+.form_register {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form_register-header {
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 0 8px;
+    color: var(--text-color);
+}
+
+.item-separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #FB9086;
+    height: 16px;
+    top: 12px;
+    right: 192px;
+}
+
+
+/* End header top1 */
+
+
+/* Begin header top2 */
+
+.header-top-2 {
+    height: var(--top2-height);
+    margin: 10px 0;
+}
+
+.header_navbar {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.header_logo {
+    height: 100%;
+}
+
+.header_logo-img {
+    height: 100%;
+}
+
+.header_navbar-list {
+    font-size: 1.4rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header_navbar-list-icon {
+    margin-right: 4px;
+}
+
+.header_navbar-list-link {
+    text-decoration: none;
+    color: var(--text-color);
+    line-height: 1.6rem;
+    font-weight: 600;
+}
