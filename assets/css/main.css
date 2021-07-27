@@ -67,6 +67,7 @@
 .form_register {
     display: flex;
     justify-content: flex-end;
+    position: relative;
 }
 
 .form_register-header {
@@ -82,8 +83,8 @@
     position: absolute;
     border-left: 1px solid #FB9086;
     height: 16px;
-    top: 12px;
-    right: 192px;
+    top: 6px;
+    right: 78px;
 }
 
 
@@ -105,6 +106,7 @@
 
 .header_logo {
     height: 100%;
+    display: block;
 }
 
 .header_logo-img {
@@ -127,4 +129,75 @@
     color: var(--text-color);
     line-height: 1.6rem;
     font-weight: 600;
+}
+
+.header_navbar-list-link:hover {
+    color: rgba(4, 4, 4, 0.5);
+}
+
+
+/* Begon Slider */
+
+.slider {
+    height: calc(var(--header-height)*2);
+}
+
+.slider_left {
+    position: relative;
+}
+
+.slider_img {
+    width: 600px;
+    display: block;
+    height: 60%;
+}
+
+.slider_content {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+
+.slider_content_margin {
+    margin: 5px 0;
+    line-height: initial;
+}
+
+.slider_content_head {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.slider_content_head-note {
+    color: rgb(43, 14, 233);
+    font-size: 1.8rem;
+}
+
+.slider_content_paragrap {
+    color: white;
+    font-size: 1.4rem;
+    margin: 3px 0;
+    font-style: italic;
+}
+
+.slider_content_btn {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.slider_content_btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.slider_content_head-right {
+    color: var(--text-color);
+}
+
+.slider_content_paragrap-right {
+    color: var(--text-color);
 }
