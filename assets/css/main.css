@@ -138,53 +138,72 @@
 
 /* Begon Slider */
 
-.slider {
-    height: calc(var(--header-height)*2);
-}
+.slider {}
 
 .slider_left {
     position: relative;
+    padding: 0;
+    display: flex;
+    background-color: rgb(226, 226, 226);
 }
 
 .slider_img {
-    width: 600px;
+    width: 100%;
     display: block;
-    height: 60%;
+    width: 600px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.slider_img-product {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    width: 24%;
+    /* display: none; */
 }
 
 .slider_content {
     width: 100%;
     position: absolute;
-    top: 10%;
+    top: 20%;
     text-align: center;
+    padding: 0;
 }
 
 .slider_content_margin {
-    margin: 5px 0;
-    line-height: initial;
+    /* margin: 5px 0; */
+    /* line-height: initial; */
 }
 
 .slider_content_head {
-    color: white;
-    font-size: 3rem;
-    font-weight: 700;
+    color: var(--text-color);
+    font-size: 4rem;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .slider_content_head-note {
-    color: rgb(43, 14, 233);
-    font-size: 1.8rem;
+    color: rgb(4, 148, 76);
+    font-size: 2.6rem;
+    margin-bottom: 20px;
 }
 
 .slider_content_paragrap {
-    color: white;
-    font-size: 1.4rem;
-    margin: 3px 0;
+    color: var(--text-color);
+    font-size: 2rem;
     font-style: italic;
+    margin: 0 0 6px;
+    line-height: 2rem;
 }
 
 .slider_content_btn {
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
     color: var(--text-color);
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-top: 16px;
 }
@@ -192,6 +211,11 @@
 .slider_content_btn:hover {
     background-color: var(--primary-color);
     color: white;
+    font-size: 2rem;
+}
+
+.slider_content_btn:hover .slider_img-product {
+    animation: fadeIn ease-in 2s;
 }
 
 .slider_content_head-right {
@@ -201,3 +225,16 @@
 .slider_content_paragrap-right {
     color: var(--text-color);
 }
+
+
+/* Begin Body */
+
+.body {}
+
+.body_content {}
+
+.content_title {}
+
+.content_title_imgs {}
+
+.content_title_img {}
